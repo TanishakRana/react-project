@@ -1,0 +1,930 @@
+/*---------------------media-query at 1485px----------------------*/
+@media (max-width:93em) {
+    .wel::before{
+        content: "";
+        width: 7rem;
+        height: 0;
+        border: 2px solid black;
+        position: absolute;
+        left: 55rem;
+        top: 4rem;
+    }
+    .wel::after{
+        content: "";
+        width: 7rem;
+        height: 0;
+        border: 2px solid black;
+        position: absolute;
+        right:55rem;
+        top: 4rem;
+    }
+    .content img{
+        width: 63rem;
+        height:40rem ;
+    }
+    .content1-1 h3{
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    .content1-1 h5{
+        font-size: 1.8rem;
+    }
+}
+/*---------------------media-query at 1448px----------------------*/
+@media (max-width:90em) {
+    .wel::before{
+display: none;
+    }
+    .wel::after{
+  display: none;
+    }
+}
+/*---------------------media-query at 1418px----------------------*/
+@media (max-width:88em) {
+    .map{
+        position: absolute;
+    top: 8rem;
+    left: 20rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       gap: 3rem;
+       padding-bottom: 2rem;
+    }
+    #first-blog{
+        display: none;
+    }
+    .content1-1c{
+        display: block;
+        font-family: 'Lato', sans-serif;
+        font-size: 3rem;
+    }
+    .content1-1c a{
+        text-decoration: none;
+    }
+    .content1-1c h3{
+        font-size: 2.8rem;
+    }
+    .content1-1c h5{
+        font-size: 1.8rem;
+    }
+    .content1-1b a{
+        text-decoration: none;
+       
+    }
+    .content1-1b h3{
+        font-size: 2.8rem;
+       
+    }
+    .content1-1b h5{
+        font-size: 1.8rem;
+       
+    }
+    .content1-1 a{
+        text-decoration: none;
+    }
+    .content-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+    .or span{
+        font-family: 'Lato', sans-serif;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 2rem;
+        padding-bottom: 1.2rem; 
+    }
+}
+/*---------------------media-query at 1337px----------------------*/
+@media (max-width:83em){
+    
+    .address h4{
+        padding-bottom: 2rem;
+          font-family: 'Lato', sans-serif;
+          font-size: 1.5rem;
+      }
+      .address h5{
+        
+          font-family: 'Lato', sans-serif;
+          font-size: 1.5rem;
+      }
+      .form input{
+        width: 36.5rem;
+        height: 3.5rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        }
+        .form textarea{
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            width: 36.5rem;
+        }
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 3.5rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 30rem;
+    }
+    .substitle{
+        font-family: 'Shadows Into Light', cursive;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 3rem;
+        color: rgb(241, 189, 0);
+    position: absolute;
+    top:33rem;
+    left: 53rem;
+    }
+    
+    .subtitle::before{
+        content: "";
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+        width: 0%;
+        height: 14rem;
+        top: 6rem;
+        left: 20rem;
+    }
+    
+    .img{
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+        top: 29rem;
+        left: 33rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.6rem;
+        width:10.5rem;
+        height: 3.5rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:43rem;
+    left:35.2rem;
+    }
+    .content1-1 h3{
+        font-size: 2.5rem;
+    }
+    .content1-1b h3{
+        font-size: 2.5rem;
+    }
+    .content1-1c h3{
+        font-size: 2.5rem;
+    }
+    .content1-1 h5{
+        font-size: 1.7rem;
+    }
+    .content1-1b h5{
+        font-size: 1.7rem;
+    }
+    .content1-1c h5{
+        font-size: 1.7rem;
+    }
+ 
+    .or span{
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem; 
+    }
+
+}
+/*---------------------media-query at 1255px----------------------*/
+@media (max-width:78em){
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 3.5rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 25rem;
+    }
+    .substitle{
+        font-family: 'Shadows Into Light', cursive;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 3rem;
+        color: rgb(241, 189, 0);
+    position: absolute;
+    top:33rem;
+    left: 48rem;
+    }
+    
+    .subtitle::before{
+        content: "";
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+        width: 0%;
+        height: 14rem;
+        top: 6rem;
+        left: 20rem;
+    }
+    
+    .img{
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+        top: 29rem;
+        left: 28rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.6rem;
+        width:10.5rem;
+        height: 3.5rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:43rem;
+    left:30.2rem;
+    }
+    .content1-1 h3{
+        font-size: 2.2rem;
+    }
+    .content1-1b h3{
+        font-size: 2.2rem;
+    }
+    .content1-1c h3{
+        font-size: 2.2rem;
+    }
+    .content1-1 h5{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .content1-1b h5{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .content1-1c h5{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .text h4{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        
+    }
+}
+/*---------------------media-query at 1070px----------------------*/
+@media(max-width:66em){
+    .c::after{
+    display: none;
+    }
+    .address h5{
+  
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+    }
+    .c{
+        font-family: 'Lato', sans-serif;
+        font-size: 3rem;
+        height: rem;
+        padding-left: 10rem;
+    
+    }
+    .address h4{
+        padding-bottom: 2rem;
+          font-family: 'Lato', sans-serif;
+          font-size: 1.2rem;
+      }
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 3rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 20rem;
+    }
+    .substitle{
+        font-family: 'Shadows Into Light', cursive;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 3rem;
+        color: rgb(241, 189, 0);
+    position: absolute;
+    top:33rem;
+    left: 43rem;
+    }
+    
+    .subtitle::before{
+        content: "";
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+        width: 0%;
+        height: 14rem;
+        top: 6rem;
+        left: 20rem;
+    }
+    
+    .img{
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+        top: 29rem;
+        left: 23rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.6rem;
+        width:10.5rem;
+        height: 3.5rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:43rem;
+    left:25.2rem;
+    }
+    .head h4{
+ 
+        font-size: 2.2rem;
+    }
+    .logo img{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .main-heading{
+        font-size: 1.3rem;
+    }
+    .nav-menu a{
+        font-size:.9rem;
+    }
+}
+/*---------------------media-query at 966px-----------------------*/
+@media (max-width:60em){
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 3rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 15rem;
+    }
+    .substitle{
+        font-family: 'Shadows Into Light', cursive;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 3rem;
+        color: rgb(241, 189, 0);
+    position: absolute;
+    top:33rem;
+    left: 38rem;
+    }
+    
+    .subtitle::before{
+        content: "";
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+        width: 0%;
+        height: 14rem;
+        top: 6rem;
+        left: 20rem;
+    }
+    
+    .img{
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+        top: 29rem;
+        left: 18rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.6rem;
+        width:10.5rem;
+        height: 3.5rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:43rem;
+    left:20.2rem;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .toggle{
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    .nav-menu2 {
+        display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center; 
+      background-image: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)) ;
+      z-index: -1;
+      padding: 3rem;
+      z-index: 99;
+      width: 25rem;
+      float: right;
+      height: 30rem;
+      gap: 2rem;
+    }
+    .nav-menu2 a{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        font-size: 1.5rem;
+        text-decoration: none;
+  
+    }
+    
+    .nav-menu2 a:hover{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        color: rgb(241, 189, 0);
+    }
+    .toggle{
+        display: block;
+        display: flex;
+        flex-direction:row ;
+        margin-right: 3rem;
+        border: none;
+    }
+    .toggle i{
+        font-size: 2rem;
+        color: aliceblue;
+        background-color: black;
+     
+    }
+}
+/*---------------------media-query at 900px-----------------------*/
+@media (max-width:57em){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .form{
+   width: 50%;
+   margin: auto;
+    }
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 2.5rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 15rem;
+    }
+    .substitle{
+        font-family: 'Shadows Into Light', cursive;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 2.5rem;
+        color: rgb(241, 189, 0);
+    position: absolute;
+    top:33rem;
+    left: 33rem;
+    }
+    
+    .subtitle::before{
+        content: "";
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+        width: 0%;
+        height: 10rem;
+        top: 6rem;
+        left:16rem;
+    }
+    
+    .img{
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        top: 29rem;
+        left: 18rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        width:8.5rem;
+        height: 3rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:40rem;
+    left:19.7rem;
+    }
+    .text h3{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 3rem; 
+    }
+    .text h4{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.7rem;
+        
+    }
+    .photo img{
+        width:40rem;
+        height: 40rem;
+        border-radius: 50%;
+    }
+    .ourschool h3{
+        font-family: 'Lato', sans-serif;
+        color: aliceblue;
+        font-weight: bold;
+        /* padding-bottom:.8rem ; */
+        font-size: 3.5rem;
+    }
+    .os1 h4{
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;    
+        }
+        .os2 h4{
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+        }
+        .os3 h4{
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+        }
+        .os1{
+            height: 4rem;
+            width: 30rem; 
+        }
+        .os2{
+            height: 4rem;
+            width: 30rem;
+        }
+        .os3{
+            height: 4rem;
+            width: 30rem;
+        }
+        .head h4{
+            font-size: 1.8rem;
+        }
+        .or span{
+            display: none;
+        }
+}
+/*---------------------media-query at 768px-----------------------*/
+@media (max-width:48em){
+    .pic img{
+        width: 30rem;
+        height: 40rem;
+    }
+    .plates{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+       
+        text-align: center;
+    }
+    .ourschool h3{
+        font-family: 'Lato', sans-serif;
+        color: aliceblue;
+        font-weight: bold;
+        /* padding-bottom:.8rem ; */
+        font-size: 3rem;
+    }
+    .photo img{
+        width:30rem;
+        height: 30rem;
+        border-radius: 50%;
+    }
+    .first-foot img{
+        width: 14rem;
+        height: 14rem;
+    }
+    .second-foot{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .third-foot h5{
+        font-size: 1.3rem;
+    }
+    .head h4{
+        font-size: 1.5rem;
+    }
+}
+/*---------------------media-query at 740px-----------------------*/
+@media(max-width:46em){
+html{
+    font-size: 50%;
+}
+}
+/*---------------------media-query at 582px-----------------------*/
+@media(max-width:36em){
+   
+    .address h4{
+        padding-bottom: 2rem;
+          font-family: 'Lato', sans-serif;
+          font-size: 2rem;
+          font-weight: 900;
+      }
+      .address h5{
+        
+          font-family: 'Lato', sans-serif;
+          font-size: 1.5rem;
+          font-weight: 900;
+      }
+   
+      .form{
+        width: 100%;
+      }
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 2.5rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 10rem;
+    }
+    .substitle{
+        font-family: 'Shadows Into Light', cursive;
+        background-image:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.0));
+        font-weight: bolder;
+        font-family: 'Lato', sans-serif;
+        font-style: italic;
+        font-size: 2.5rem;
+        color: rgb(241, 189, 0);
+    position: absolute;
+    top:33rem;
+    left: 28rem;
+    }
+    
+    .subtitle::before{
+        content: "";
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+        width: 0%;
+        height: 10rem;
+        top: 6rem;
+        left:16rem;
+    }
+    
+    .img{
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        top: 29rem;
+        left: 12rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        width:8.5rem;
+        height: 3rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:40rem;
+    left:13.7rem;
+    }
+    
+    .why{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    .photo img{
+        display: none;
+    }
+    .ourschool{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .why{
+        background-image: url(../pictures/back3.jpg);
+        background-size: cover;
+        background-position: center;
+    height: 70vh;
+    width: 100%;
+        padding:5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;  
+        gap: 5rem;
+    }
+  
+    .ourschool h3{
+        font-family: 'Lato', sans-serif;
+        color: aliceblue;
+        font-weight: bold;
+        /* padding-bottom:.8rem ; */
+        font-size: 2.5rem;
+    }
+     .content img{
+        width: 50rem;
+        height:30rem ;
+    }
+    .content1-1{
+        display: none;
+    }
+    .content-2{
+        display: grid;
+        grid-template-columns: 1fr;
+     row-gap: 2rem;
+    }
+    .second-foot{
+        display: none;
+    }
+}
+/*---------------------media-query at 533px-----------------------*/
+@media(max-width:34em){
+    .subtitle{
+        font-family: 'Rajdhani', sans-serif;
+        font-style: italic;
+        font-size: 2rem;
+        color: rgb(238, 228, 211);
+    position: absolute;
+    top:25rem;
+    left: 7rem;
+   
+    }
+    .substitle{
+    display: none;
+    }
+    
+    .subtitle::before{
+        display: none;
+    }
+    
+    .img{
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        top: 29rem;
+        left: 22rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        width:8.5rem;
+        height: 3rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:40rem;
+    left:23.7rem;
+    }  
+    .container-1{
+        background-image: url(../pictures/back.jpg);
+        background-size:cover;
+        background-position:fixed;
+        background-repeat: no-repeat;
+        background-position:center;
+        width: 100%;
+        /* height: 80vh; */
+        position: relative;
+    }
+    .ourschool h3{
+        font-family: 'Lato', sans-serif;
+        color: aliceblue;
+        font-weight: bold;
+        /* padding-bottom:.8rem ; */
+        font-size: 1.8rem;
+    }
+    .plate-1 h3{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 2.8rem;
+    }
+    .btn3{
+        font-size: 1.3rem;
+        height: 5rem;
+        width: 12rem;
+        border-radius: 3rem;
+        background-color: rgb(241, 189, 0);
+    }
+}
+/*---------------------media-query at 430px-----------------------*/
+@media(max-width:27em){
+    .form input{
+        width: 30.5rem;
+        height: 3.5rem;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        }
+        .form textarea{
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            width: 30.5rem;
+        }
+    .os1 h4{
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.4rem; 
+        padding-top: .5rem;   
+        }
+        .os2 h4{
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.4rem;
+        padding-top: .5rem;
+        }
+        .os3 h4{
+        color: black;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.4rem;
+        padding-top: .5rem;
+        }
+        .os1{
+            height: 4rem;
+            width: 24rem;
+            gap: 2rem; 
+        }
+        .os2{
+            height: 4rem;
+            width: 24rem;
+            gap: 1rem;
+        }
+        .os3{
+            height: 4rem;
+            width: 24rem;
+            gap: 1rem;
+        }
+        .head h4{
+            display: none;
+        }
+        .content img{
+            width: 25rem;
+            height:20rem ;
+        }
+}
+/*---------------------media-query at 356px-----------------------*/
+@media(max-width:23em){
+    .img{
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        top: 29rem;
+        left: 15rem;
+    }
+    
+    #btn1{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        width:8.5rem;
+        height: 3rem;
+        border-radius: 2rem;
+        position: absolute;
+        top:40rem;
+    left:16.7rem;
+    }  
+    .plate-1 h3{
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 2.8rem;
+    }
+    .btn3{
+        display: none;
+    }
+    .first-foot{
+        display: none;
+    }
+}

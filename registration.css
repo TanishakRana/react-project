@@ -1,0 +1,133 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
+
+.logo img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.main-heading{
+    font-family: 'Lato', sans-serif;
+    color: antiquewhite;
+    font-size: 1.3rem;
+    z-index: 1;
+}
+
+.nav-menu a{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+}
+
+.nav-menu a:hover{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: rgb(241, 189, 0);
+}
+
+.logo{
+    display: flex;
+flex-direction:row ; 
+align-items: center;
+padding-left: 2rem;   
+}
+
+.nav-menu{
+    display: flex;
+flex-direction:row ;
+gap: 1.8rem;
+padding-right: 2rem;
+
+}
+.nav-menu2{
+    display: none;
+}
+
+.top-div{
+    display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center; 
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3));
+}
+
+.container-1{
+    position: relative;
+}
+
+.subtitle{
+display: none;
+}
+
+.substitle{
+display: none;
+}
+
+.subtitle::before{
+display: none;
+}
+
+.img{
+display: none;
+}
+
+#btn1{
+display: none;
+}
+#btn1:hover{
+    background-color: rgb(241, 189, 0);
+    color: blue;
+}
+.toggle{
+    display: none;
+}
+.text{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height:20rem;
+    background-color:azure;
+}
+.first-foot img{
+    width: 11rem;
+    height: 11rem;
+}
+.first-foot h4{
+    font-size: 0.9rem;
+}
+.sf1 a{
+    text-decoration: none;
+    color:black;
+    font-size: 0.9rem;
+}
+.second-foot h3{
+font-size: 1.8rem;
+}
+.third-foot h4{
+    font-size: 0.9rem;
+}
+.third-foot h5{
+    font-size: 0.9rem;
+}
+.third-foot a{
+    font-size: 2rem;
+}
